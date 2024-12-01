@@ -6,7 +6,7 @@ import "allotment/dist/style.css";
 import MonacoEditor from "../MonacoEditor";
 
 import { useApp } from "../../stores/useApp";
-import { InteractiveGraphView } from "../Graph";
+import { InteractiveGraphView } from "../InteractiveGraphView";
 
 export const EditorMainLayput = () => {
   const isEditorVisible = useApp((state) => state.isEditorVisible);
