@@ -1,8 +1,6 @@
 import { Allotment } from "allotment";
 import "allotment/dist/style.css";
 
-// import { Graph } from "@jsonlens/json-parts";
-
 import MonacoEditor from "../MonacoEditor";
 
 import { useApp } from "../../stores/useApp";

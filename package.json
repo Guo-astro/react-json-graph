@@ -1,7 +1,7 @@
 {
   "name": "react-json-to-graph",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "types": "dist/index.d.ts",
   "license": "MIT",
@@ -35,7 +35,8 @@
   "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "reactflow": "^11.11.4"
+    "reactflow": "^11.11.4",
+    "allotment": "^1.20.2"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.2",
@@ -84,7 +85,6 @@
     "@radix-ui/react-select": "^2.1.2",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-tabs": "^1.1.1",
-    "allotment": "^1.20.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
