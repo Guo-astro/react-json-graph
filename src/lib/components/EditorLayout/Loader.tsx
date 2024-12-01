@@ -4,7 +4,7 @@ type LoaderProps = {
   message?: string;
 };
 
-export function Loader({
+export function EnvironmentLoader({
   message = "Preparing the environment for you...",
 }: LoaderProps) {
   const isLoading = useApp((state) => state.isLoading);
